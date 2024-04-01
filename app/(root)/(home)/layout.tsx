@@ -3,6 +3,7 @@ import { ReactNode } from 'react';
 
 import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Naga Apparel',
@@ -21,6 +22,7 @@ const RootLayout = ({ children }: Readonly<{children: ReactNode}>) => {
           <div className="w-full">{children}</div>
         </section>
       </div>
+      <Footer />
     </main>
   );
 };
