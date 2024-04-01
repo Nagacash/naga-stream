@@ -6,7 +6,7 @@ const Footer = () => {
 <footer className="bg-zinc-50 text-center sticky dark:bg-neutral-700 lg:text-left">
   <div className="bg-black/5 p-4 text-center text-surface dark:text-white">
     © 2024 Copyright:
-    <a href="https://nagashop.vercel.app/"> Naga Apparel</a>
+    <a href="https://nagashop.vercel.app/"> Naga Apparel | Get your NAGA Gear - click here</a>
   </div>
 </footer>
 
